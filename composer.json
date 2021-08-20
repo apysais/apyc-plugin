@@ -1,0 +1,21 @@
+{
+    "name": "allan/apyc-plugin",
+    "description": "apyc plugin",
+    "autoload": {
+        "psr-4": {
+            "ApycPlugin\\": "app/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\":"tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "apycasilum",
+            "email": "allan.paul.casilum@gmail.com"
+        }
+    ],
+    "require": {}
+}
